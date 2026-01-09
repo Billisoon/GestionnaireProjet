@@ -47,6 +47,7 @@ $nom = $_SESSION['nom_agent'];
         <span class="btn-profile"><?= htmlspecialchars($nom) ?></span>
         <a href="index.php?action=logout" class="btn-profile">Déconnexion</a>
     </div>
+    <p></p>
 </header>
 
 <main class="main-content">
